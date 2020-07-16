@@ -114,8 +114,8 @@ if (cli.input.length===0) {
     logger.info('Load %d events in %dms', count, Date.now() - start)
   }).then( wool => {
 
-    let server = require('./app/server')(logger, debug, port)
-    require('./app/server/ws-server')(logger, server, wool, rules, store)
+    let server = require('./server')(logger, debug, port)
+    require('./server/ws-server')(logger, server, wool, rules, store)
     logger.info('App ready in %dms', Date.now() - start)
 
   }).catch( e => {

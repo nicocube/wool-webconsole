@@ -75,9 +75,13 @@ function main(state) {
       font-size: x-small;
       cursor: pointer;
     }
+    .param {
+      width: 150px;
+      text-overflow:ellipsis;
+    }
   `
   let savedParam = n => {
-      return yo`<p>${n}: ${state.variable[n]} <span class="action" onclick=${onClickVarDel(n)}>x</span></p>`
+      return yo`<p><span class="param">${n}: ${state.variable[n]}</span> <span class="action" onclick=${onClickVarDel(n)}>x</span></p>`
     }
     , optionCommand = (cmd, i) => {
       return yo`<option value="${i}" selected=${state.command.i===i?'selected':''}>${cmd.n}</option>`
