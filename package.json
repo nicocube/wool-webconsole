@@ -1,6 +1,6 @@
 {
   "name": "wool-webconsole",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "author": "Nicolas Lochet <nicolas.lochet@gmail.com>",
   "description": "a webconsole tool to debug a wool rule system",
   "homepage": "https://github.com/nicocube/wool-webconsole",
