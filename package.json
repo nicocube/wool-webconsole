@@ -28,8 +28,8 @@
   "dependencies": {
     "bankai": "^9.15.3",
     "bunyan": "^1.8.14",
-    "meow": "^7.0.1",
-    "websocket": "^1.0.31",
+    "meow": "^7.1.1",
+    "websocket": "^1.0.32",
     "wool": "^2.1.1",
     "xhr": "^2.5.0",
     "yo-yo": "^1.4.1"
