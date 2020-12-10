@@ -29,12 +29,12 @@
     "bankai": "^9.15.3",
     "bunyan": "^1.8.14",
     "meow": "^7.1.1",
-    "websocket": "^1.0.32",
+    "websocket": "^1.0.33",
     "wool": "^2.1.1",
-    "xhr": "^2.5.0",
+    "xhr": "^2.6.0",
     "yo-yo": "^1.4.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.6"
   }
 }
